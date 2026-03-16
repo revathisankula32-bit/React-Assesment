@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f6fa;
+}
+
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f6fa;
+}
+
+.sidebar {
+  width: 260px;
+  background: white;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2d2d2d;
+}
+
+.subtitle {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f4f4ff;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: #5a4bff;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.menu li {
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.menu li.active {
+  background: #ecebff;
+  color: #5a4bff;
+  font-weight: bold;
+}
+
+.permissions {
+  background: #f4f6ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.permissions h4 {
+  margin-bottom: 10px;
+}
+
+.permissions p {
+  margin-bottom: 6px;
+}
+
+.logout {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #eee;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.topbar h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.topbar p {
+  color: gray;
+}
+
+.top-icons span {
+  font-size: 22px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.user-management {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.toolbar {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.toolbar input,
+.toolbar select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.toolbar input {
+  flex: 1;
+}
+
+.add-user {
+  background: #5a4bff;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #f7f7f7;
+}
+
+th,
+td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.role-badge {
+  background: #ecebff;
+  color: #5a4bff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.active-badge {
+  background: #dff7df;
+  color: green;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.user-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.user-form input,
+.user-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.dashboard-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
