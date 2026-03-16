@@ -14,3 +14,6 @@ User Management dashboard
 *Javascript
 *CSS
 *Git& Github
+
+##  UI PREVIEW  ##
+[Dashboard](screenshot)
