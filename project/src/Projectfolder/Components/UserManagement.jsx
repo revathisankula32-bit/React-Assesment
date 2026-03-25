@@ -5,6 +5,7 @@ const UserManagement = () => {
     { id: 1, name: 'Revathi Admin', username: 'Revathi_AD', role: 'Administrator', active: 'Active' },
     { id: 2, name: 'Vishal(Test)', username: 'Vishal_TS', role: 'Manager', active: 'Active' },
     { id: 4, name: 'Swapna', username: 'Swapna_TA', role: 'User', active: 'Active' },
+    { id: 5, name: 'Khadar', username: 'khadar_le', role: 'Admin', active: 'In Active'},
   ])
 
  const [search, setSearch] = useState('')
